@@ -7,7 +7,7 @@ n
 e
 
 
-
+20971519
 w
 EOF
 
@@ -15,13 +15,18 @@ for i in {1..10}; do
 	echo 'Realizando la particion numero '$i
 	sudo fdisk $DISCOPATH << EOF
 n
-l
-$i
 
-+1G
+ +1020M
+ w
 EOF
 done
-sudo fdisk $DISCOPATH << EOF
-w
-EOF
 sudo partprobe $DISCOPATH
+sudo lsblk $DISCOPATH
+LISTAPARTICIONES=$(sudo fdisk -l $DISCOPATH | awk 'NR >=11 {print $1}')
+for i in $LISTAPARTICIONES; do
+	sudo mkfs.ext4 i
+done
+for i in $LISTAPARTICIONES; do
+	sudo mount $i /Examenes-UTN/
+done
+
