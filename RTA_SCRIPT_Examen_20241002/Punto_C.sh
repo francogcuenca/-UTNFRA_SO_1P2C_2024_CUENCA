@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MIPASSWORD=$(sudo grep "$(whoami):" /etc/shadow | awk -F: {print })
+MIPASSWORD=$(sudo grep "$(whoami):" /etc/shadow | awk -F: '{print $2}')
 
 sudo groupadd p1c2_2024_gAlumno
 sudo groupadd p1c2_2024_gProfesores
