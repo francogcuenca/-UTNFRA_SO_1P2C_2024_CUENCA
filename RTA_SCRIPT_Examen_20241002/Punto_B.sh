@@ -23,10 +23,10 @@ done
 sudo partprobe $DISCOPATH
 sudo lsblk $DISCOPATH
 LISTAPARTICIONES=$(sudo fdisk -l $DISCOPATH | awk 'NR >=11 {print $1}')
+$PUNTOSMONTEJE << EOF 
+/Examenes-UTN/
+EOF
 for i in $LISTAPARTICIONES; do
-	sudo mkfs.ext4 i
-done
-for i in $LISTAPARTICIONES; do
-	sudo mount $i /Examenes-UTN/
-done
+	sudo mkfs.ext4 $i
 
+done
