@@ -42,5 +42,5 @@ for i in "${!particiones[@]}"; do
 	echo "Montando particion $i"
 	sudo mount ${particiones[$i]} ${puntos_montaje[$i]}
 	UUID=$(sudo blkid -s UUID -o value ${particiones[$i]})
-	echo 'UUID=$UUID ${puntos_montaje[$i] ext4 defaults 0 2' | sudo tee -a /etc/fstab
+	echo "UUID=$UUID ${puntos_montaje[$i]} ext4 defaults 0 2" | sudo tee -a /etc/fstab
 done
