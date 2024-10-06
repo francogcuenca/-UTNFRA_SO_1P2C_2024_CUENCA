@@ -1,0 +1,794 @@
+apt install tree
+sudo apt install tree
+sudo apt update 
+sudo apt install tree
+ls
+pwd
+ls
+ls-alh
+ls -alh
+cat .ssh/
+ls -l .ssh/
+cat .ssh/id_ed25519
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub 
+ssh -T git@github.com
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes
+ls
+ls -la
+cd UTN-FRA_SO_Examenes/
+ls
+cd 202405/
+ls
+./script_Precondicion.sh 
+~/.bashrc
+sudo ~/.bashrc
+source ~/.bashrc
+cd $HOME
+pwd
+ls
+cd RTA_Examen_20241002/
+ls
+cd ..
+ls
+rm ./RTA_Examen_20241002/.
+ls
+rm ./RTA_Examen_20241002/*
+ls RTA_Examen_20241002/
+|ls
+ls
+cd ..
+ls
+cd root/
+sudo cd root/
+ls
+cd $HOME
+ls
+mkdir -p /datos/{textos,videos}
+ls
+whoami
+cd
+pwd
+ls
+mkdir a
+ls
+rmdir a
+ls
+mkdir --help 
+mkdir -p ./datos/{textos,videos}
+ls
+cd datos/
+ls
+cd ..
+ls
+rm -r datos/
+ls
+mkdir -p ./datos/{textos,videos}/{libros,revistas}{peliculas,series}
+ls
+ls datos/
+cd datos/
+cd textos/
+ls
+rm -r datos/
+cd ..
+rm -r datos/
+cd ..
+rm -r datos/
+ls
+mkdir -p ./datos/{textos,videos}/{{libros,revistas},{peliculas,series}}
+ls
+cd datos/
+cd textos/
+ls
+rm -r datos/
+mkdir -p ./datos/{textos,videos} ./datos/texto/{libros,revistas}  ./datos/videos/{peliculas,series}
+cd datos/
+ls videos/
+cd ..
+rm -r datos/
+mkdir -p ./datos/{textos/{libros,revistas},videos/{peliculas,series}}
+cd datos/
+ls videos/
+cd ..
+tree datos/
+ls
+grep datos/
+pwd
+cd datos/
+cd textos
+git status
+cd repogit
+cd ../../
+cat datos/
+cat datos/textos/
+tree datos/
+ls
+pwd
+rm -r RTA_Examen_20241002/
+rm -r UTN-FRA_SO_Examenes/
+ls
+sudo rm -r UTN-FRA_SO_Examenes/
+ls
+sudo rm -r datos/
+ls
+l
+s
+history | grep "git"
+ls
+history | grep "git"
+exit
+ls
+touch script-entorno.sh << "sudo apt install tree"
+ls
+touch script-entorno.sh << echo "sudo apt install tree"
+
+
+
+
+:q
+
+
+
+exit
+ls
+
+ls -l
+sudo rm sudo\ apt\ install\ tree 
+ls
+cat script-entorno.sh 
+rm script-entorno.sh 
+man tee
+rm script-entorno.sh 
+ls
+touch script-entorno.sh << tee -a "sudo apt install tree"
+ls
+sudo rm sudo\ apt\ install\ tree 
+rm script-entorno.sh 
+ls
+cat a
+touch script-entorno.sh << tee -a {echo "sudo apt install tree"}
+
+
+ls
+rm -r script-entorno.sh 
+rm -r sudo\ apt\ install\ tree\} 
+rm -r \{echo 
+ls
+vim script-entorno.sh << tee (echo 'hola')
+
+
+
+
+man tee
+vim script-entorno.sh << echo 'hola'
+
+
+
+ls
+touch script-entorno.sh << echo "hola"
+
+
+
+
+script-entorno.sh << echo "hola"
+ls
+rm hola 
+rm script-entorno.sh 
+ls
+man cat
+man echo
+echo -e "a" > script-entorno.sh 
+cat script-entorno.sh 
+rm script-entorno.sh 
+ls
+man echo 
+echo -e '#!/bin/bash' > script-entorno.sh 
+ls
+rm script-entorno.sh 
+echo -e '#!/bin/bash\nsudo apt update' > script-entorno.sh 
+cat script-entorno.sh 
+rm script-entorno.sh 
+echo -e '#!/bin/bash\nsudo apt update\nsudo apt install tree\nsudo apt install git\necho "Entorno listo para el parcial!"' > script-entorno.sh 
+cat script-entorno.sh 
+rm script-entorno.sh 
+echo -e '#!/bin/bash\nsudo apt update\nsudo apt install tree\nsudo apt install git\necho "Entorno listo para el parcial!"' > script-entorno.sh | chmod 755 script-entorno.sh
+ls
+./script-entorno.sh 
+ls
+ll
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes
+ls
+git clone https://github.com/upszot/UTNFRA_SO_1P2C_2024_CUENCA
+ssh-add .ssh/id_ed25519
+ls
+rm -r UTN-FRA_SO_Examenes/
+ls
+mkdir repogit | cd repogit | git init | git clone https://www.github.com/UTN_FRA_SO_Examenes.git
+ls
+rmdir repogit/
+mkdir repogit | cd ./repogit | git init | git clone https://www.github.com/UTN_FRA_SO_Examenes.git
+rm -r repogit/
+ls
+mkdir repogit && cd ./repogit | git init | git clone https://www.github.com/UTN_FRA_SO_Examenes.git
+rm -r repogit/
+ls
+mkdir repogit && cd ./repogit | git init | git clone https://www.github.com/upszot/UTN_FRA_SO_Examenes.git
+mkdir repogit && cd ./repogit | git init | git clone 
+mkdir repogit && cd ./repogit | git init | git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+rm -r repogit/
+ls
+mkdir repogit && cd ./repogit | git init | git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+ls
+rm -r UTN-FRA_SO_Examenes | rm -r repogit/
+ls
+mkdir repogit
+cd repogit/
+ls
+git init | git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+ls
+cd UTN-FRA_SO_Examenes/202410/
+l
+./script_Precondicion.sh 
+ls
+cat README.md 
+ls
+pwd
+cd $HOME/repogit
+ls
+cd UTN-FRA_SO_Examenes/202410/
+ls
+./script_Precondicion.sh 
+pwd
+cp -r $HOME/repogit/UTN-FRA_SO_Examenes/202410/ $HOME/repogit/202410
+cd
+ls
+cd repogit/
+ls
+cd 202410/
+ls
+./script_Precondicion.sh 
+cd ..
+pwd
+ls
+cd
+rm -r ./repogit/*
+ls
+cd repogit/
+ls
+git init
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+ls
+cd repogit/
+ls
+git clone https://github.com/francogcuenca/UTNFRA_SO_1P2C_2024_CUENCA
+ls
+cd UTN-FRA_SO_Examenes/202410/
+./script_Precondicion.sh 
+source ~/.bashrc && history -a
+ls
+cd
+cd repogit/
+ls
+echo -e '#!bin/bash\nsudo mdkdir -p /Examenes-UTN/alumno_{1..3}/parcial_{1..3} /Examenes-UTN/profesores' >> ./UTNFRA_SO_1P2C_2024_CUENCA/RTA_SCRIPT_Examen_20241002/Punto_A.sh 
+ls
+cd ./UTNFRA_SO_1P2C_2024_CUENCA/RTA_SCRIPT_Examen_20241002/Punto_A.sh 
+ls
+./UTNFRA_SO_1P2C_2024_CUENCA/RTA_SCRIPT_Examen_20241002/Punto_A.sh 
+sudo ./UTNFRA_SO_1P2C_2024_CUENCA/RTA_SCRIPT_Examen_20241002/Punto_A.sh 
+cd ./UTNFRA_SO_1P2C_2024_CUENCA/RTA_SCRIPT_Examen_20241002/ 
+ls
+cd ..
+ls
+chmod 755 -R RTA_SCRIPT_Examen_20241002/
+ls
+./RTA_SCRIPT_Examen_20241002/Punto_A.sh 
+cat ./RTA_SCRIPT_Examen_20241002/Punto_A.sh 
+vim ./RTA_SCRIPT_Examen_20241002/Punto_A.sh 
+./RTA_SCRIPT_Examen_20241002/Punto_A.sh 
+vim ./RTA_SCRIPT_Examen_20241002/Punto_A.sh 
+./RTA_SCRIPT_Examen_20241002/Punto_A.sh 
+ls
+history | grep "echo"
+fdisk l
+fdisk -l
+sudo fdisk -l
+sudo fdisk
+sudo fdisk -l | grep "10G"
+sudo lsblk -l | grep "10G"
+lsblk -l | grep "10G"
+lsblk -l | grep "10G" | awk {print $1}
+lsblk -l | grep "10G" | awk '{print $1}'
+echo (lsblk -l | grep "10G" | awk '{print $1}')
+echo '(lsblk -l | grep "10G" | awk '{print $1}')'
+echo 'DISCO10G=$(lsblk -l | grep "10G" | awk '{print $1}')'
+echo -e '#!/bin/bash\nDISCO10G=$(lsblk -l | grep "10G" | awk '{print $1}')' >> ./RTA_SCRIPT_Examen_20241002/Punto_B.sh 
+vim ./RTA_SCRIPT_Examen_20241002/Punto_B.sh 
+./RTA_SCRIPT_Examen_20241002/Punto_B.sh 
+vim ./RTA_SCRIPT_Examen_20241002/Punto_B.sh 
+./RTA_SCRIPT_Examen_20241002/Punto_B.sh 
+echo $DISCO10G
+./RTA_SCRIPT_Examen_20241002/Punto_B.sh 
+cd ./RTA_SCRIPT_Examen_20241002/ 
+ls
+vim Punto_B.sh 
+./Punto_B.sh 
+ls
+cd
+ls
+cd repogit/
+ls
+git add .
+cd UTNFRA_SO_1P2C_2024_CUENCA/
+ls
+git init 
+git add .
+git commit -m 'Add Punto_A resuelto e inicio Punto_B'
+git config --global user.email "francog.cuenca"
+git config --global user.name  "francogcuenca"
+git commit -m 'Add Punto_A resuelto e inicio Punto_B'
+git remote add origin https://github.com/francogcuenca/UTNFRA_SO_1P2C_2024_CUENCA.git
+git remote add parcial https://github.com/francogcuenca/UTNFRA_SO_1P2C_2024_CUENCA.git
+git push parcial 
+ls
+git pull
+ls
+cd RTA_SCRIPT_Examen_20241002/
+ls
+sudo fdisk l
+sudo fdisk l-
+sudo fdisk -l
+ls
+sudo fdisk /dev/sdb
+# vamos de vuelta
+# Ahora si para el script
+sudo fdisk /dev/sdb
+ls
+car Punto_B
+cat Punto_B.sh 
+ls
+sudo fdisk -l
+sudo fdisk -l | grep "10G"
+sudo fdisk -l | grep "10GiB"
+sudo fdisk -l | grep "10 GiB"
+sudo fdisk /dev/sdc 
+history --help
+history 30
+vim Punto_B.sh 
+fdisk /dev/sdc 
+d
+sudo fdisk /dev/sdc 
+./Punto_B.sh 
+sudo fdisk /dev/sdc 
+vim /Punto_B.sh 
+ls
+vim Punto_B.sh 
+./Punto_B.sh 
+sudo fdisk /dev/sdc 
+vim Punto_B.sh 
+./Punto_B.sh 
+fdisk 
+fdisk /dev/sdc
+d
+sudo fdisk /dev/sdc
+vim Punto_B.sh
+sudo fdisk /dev/sdc
+vim Punto_B.sh
+cat Punto_B.sh 
+vim Punto_B.sh 
+./Punto_B.sh 
+fdisk /dev/sdc
+sudo fdisk /dev/sdc
+ls
+vim Punto_B.sh 
+./Punto_B.sh 
+sudo fdisk /dev/sdc l
+sudo fdisk /dev/sdc -l
+sudo fdisk /dev/sdc -d
+sudo fdisk /dev/sdc 
+vim Punto_B.sh 
+./Punto_B.sh 
+sudo fdisk /dev/sdc 
+./Punto_B.sh 
+sudo fdisk /dev/sdc -l
+sudo fdisk --help 
+sudo fdisk /dev/sdc -x
+sudo fdisk -l /dev/sdc
+sudo fdisk -x /dev/sdc
+sudo lsblk 
+sudo lsblk /dev/sdc1
+sudo fdisk /dev/sdc
+vim Punto_B.sh 
+./Punto_B.sh 
+vim Punto_B.sh 
+sudo fdisk /dev/sdc
+./Punto_B.sh 
+sudo fdisk /dev/sdc
+vim Punto_B.sh 
+./Punto_B.sh 
+sudo fdisk -l /dev/sdc
+sudo fdisk /dev/sdc
+vim Punto_B.sh 
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_CUENCA/
+ls
+cd RTA_SCRIPT_Examen_20241002/
+ls
+sudo fdisk /dev/sdc
+vim Punto_B.sh 
+sudo fdisk /dev/sdc
+./Punto_B.sh 
+sudo fdisk /dev/sdc
+vim Punto_B.sh 
+./Punto_B.sh 
+sudo fdisk -l /dev/sdc
+sudo fdisk /dev/sdc
+vim Punto_B.sh 
+./Punto_B.sh 
+sudo fdisk /dev/sdc
+vim Punto_B.sh 
+./Punto_B.sh 
+sudo fdisk /dev/sdc
+vim Punto_B.sh 
+cd repogit/UTNFRA_SO_1P2C_2024_CUENCA/
+ls
+cd RTA_SCRIPT_Examen_20241002/
+ls
+vim Punto_B.sh 
+./Punto_B.sh 
+vim Punto_B.sh 
+sudo fdisk /dev/sdc
+./Punto_B.sh 
+sudo fdisk -x /dev/sdc
+history | grep "l*"
+history | grep "sudo l*"
+sudo lsblk /dev/sdc
+vim Punto_B.sh 
+sudo lsblk /dev/sdc
+sudo fdisk /dev/sdc
+./Punto_B.sh 
+sudo lsblk /dev/sdc
+vim Punto_B.sh 
+sudo fdisk /dev/sdc
+./Punto_B.sh 
+sudo lsblk /dev/sdc
+sudo fdisk /dev/sdc
+vim Punto_B.sh 
+sudo fdisk /dev/sdc
+sudo lsblk /dev/sdc
+./Punto_B.sh 
+vim Punto_B.sh 
+sudo fdisk /dev/sdc
+./Punto_B.sh 
+sudo fdisk /dev/sdc
+vim Punto_B.sh 
+./Punto_B.sh 
+vim Punto_B.sh 
+sudo fdisk /dev/sdc
+./Punto_B.sh 
+sudo lsblk /dev/sdc
+sudo fdisk /dev/sdc
+vim Punto_B.sh 
+./Punto_B.sh 
+vim Punto_B.sh 
+sudo fdisk /dev/sdc
+./Punto_B.sh 
+vim Punto_B.sh 
+sudo fdisk /dev/sdc
+./Punto_B.sh 
+sudo lsblk /dev/sdc
+sudo lsblk /dev/sdc | awk '{print $1}'
+sudo lsblk /dev/sdc | awk '{print $1}' >> lista-particiones
+ls
+cat lista-particiones 
+vim lista-particiones 
+sudo fdisk /dev/sdc | awk '{print $1}' >> lista-particiones
+sudo fdisk -l /dev/sdc | awk '{print $1}' >> lista-particiones
+cat lista-particiones 
+rm lista-particiones 
+sudo fdisk -l /dev/sdc | awk '{print $1}' >> lista-particiones
+ls
+cat lista-particiones 
+sudo fdisk -l /dev/sdc | awk '{print $1,$10}' >> lista-particiones
+cat lista-particiones 
+sudo fdisk -l /dev/sdc | awk '{print $1,10}' >> lista-particiones
+cat lista-particiones 
+cat lista-particiones rm lista-particiones 
+ls
+rm l
+rm lista-particiones 
+ls
+sudo fdisk -l /dev/sdc | awk 'NR >=10' '{print $1}' >> lista-particiones
+sudo fdisk -l /dev/sdc | awk 'NR >=10 {print $1}' >> lista-particiones
+cat lista-particiones 
+rm lista-particiones 
+sudo fdisk -l /dev/sdc | awk 'NR >=11 {print $1}' >> lista-particiones
+cat lista-particiones 
+vim Punto_B.sh 
+LISTAPARTICIONES=$(sudo fdisk -l $DISCOPATH | awk 'NR >=11 {print $1}')
+$LISTAPARTICIONES 
+LISTAPARTICIONES=$(sudo fdisk -l /dev/sdc | awk 'NR >=11 {print $1}')
+$LISTAPARTICIONES 
+cat $LISTAPARTICIONES 
+echo $LISTAPARTICIONES 
+vim Punto_B.sh 
+LISTAPARTICIONES=$(sudo fdisk -l $DISCOPATH | awk 'NR >=11 {print $1}')
+for i in $LISTAPARTICIONES; do         sudo mkfs.ext4 i; done
+cat $LISTAPARTICIONES 
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_CUENCA/
+ls
+git init
+git add .
+git commit -m "Add Script B hasta el formateo"
+git push
+shutdown now
+touch script-entorno.sh << echo "sudo apt update\nsudo apt install tree\nsudo apt install git"
+
+s
+
+sudo fdisk /dev/sdc
+sudo cat $LISTAPARTICIONES 
+man cat
+sudo shutdown now
+cd repogit/UTNFRA_SO_1P2C_2024_CUENCA/
+ls
+git init
+git pull
+man chmod 
+man chown 
+ls
+cd RTA_SCRIPT_Examen_20241002/
+ls
+ls lista-particiones 
+ls -alh lista-particiones 
+man chown 
+sudo cat /etc/passwd
+ls
+man useradd 
+man groupadd 
+sudo groupadd -g caninos
+sudo groupadd caninos
+sudo useradd -g caninos perro
+sudo cat /etc/passwd
+sudo groups
+cd ..
+cd RTA_SCRIPT_Examen_20241002/
+ls
+sudo cat /etc/passwd
+sudo ll /etc/
+sudo ls -alh /etc/
+sudo ls -alh /etc/ | grep "group"
+sudo ls -alh /etc/group 
+sudo ls -alh /etc/group/
+sudo cat /etc/group/
+sudo cd /etc/group
+cd /etc/group
+cd /etc/
+ls
+ls | grep "group"
+ls -alh | grep "group"
+cat group
+cat group | grep "caninos" | awk F: '{print $3}'
+cat group | grep "caninos" | awk F: '{print $1}'
+cat group | grep "caninos" | awk -F: '{print $3}'
+cat passwd | grep "perro"
+cd..
+cd ..
+ls
+cd
+ls
+cd repogit/
+ls
+cd UTNF
+cd UTNFRA_SO_1P2C_2024_CUENCA/
+ls
+cd RTA_SCRIPT_Examen_20241002/
+ls
+whoami 
+ll
+cd..
+pwd
+ls
+sudo chown lista-particiones
+man chown 
+chown -c perro:caninos lista-particiones
+ll
+chmod 751 lista-particiones 
+ll
+chown -c perro:caninos lista-particiones 
+chown -v perro:caninos lista-particiones 
+sudo groups 
+sudo group
+cat /etc/group
+ls
+ll
+chmod 771 lista-particiones 
+ll ~/repogit/UTNFRA_SO_1P2C_2024_CUENCA/RTA_SCRIPT_Examen_20241002/
+ll ~/repogit/UTNFRA_SO_1P2C_2024_CUENCA
+ll ~/repogit
+ls
+chown vagrant 
+chown vagrant lista-particiones 
+history 20 | grep "sudo cat"
+history | grep "sudo cat"
+sudo cat /etc/group
+sudo cat /etc/passwd
+chmod 777 lista-particiones 
+sudo chown perro:caninos lista-particiones 
+ll
+ls
+vim Punto_C.sh 
+man groupadd 
+vim Punto_C.sh 
+history | grep "awk"
+cat /etc/passwd | grep "p1c2*"
+cat /etc/passwd | grep "p1c2"
+cat /etc/passwd
+man chown 
+vim Punto_C.sh 
+./Punto_C.sh 
+cat /etc/passwd
+cat /etc/group
+cd /Examenes-UTN/
+ls
+ll
+cat /etc/passwd | grep "p1c"
+cat /etc/passwd | grep "p1c2_2024_A" | awk -F: '{print $1}'
+cat /etc/passwd | grep "p1c2_2024_A" | awk -F: '{print $1}' >> ~/repogit/UTNFRA_SO_1P2C_2024_CUENCA/RTA_SCRIPT_Examen_20241002/Punto_C.sh 
+cat /etc/passwd | grep "p1c2_2024_A" | awk -F: '{print $1}'
+cd
+cd repogit/UTNFRA_SO_1P2C_2024_CUENCA/RTA_SCRIPT_Examen_20241002/
+ls
+vim Punto_C.sh 
+sudo userdel p1c2_2024_gAlumno
+sudo useradd -g p1c2_2024_gAlumno
+man useradd 
+vim Punto_C.sh 
+man useradd 
+vim Punto_C.sh 
+./Punto_C.sh 
+cat /etc/group
+sudo groupdel p1c2_2024_gAlumno
+cat /etc/passwd
+sudo userdel p1c2_2024_A1
+sudo userdel p1c2_2024_A2
+sudo userdel p1c2_2024_A3
+sudo userdel p1c2_2024_P1
+sudo groupdel p1c2_2024_gAlumno 
+sudo groupdel p1c2_2024_gProfesores 
+cat /etc/passwd
+sudo groupdel caninos 
+sudo userdel perro 
+sudo groupdel caninos 
+cat /etc/passwd
+cat /etc/group
+vim Punto_C.sh 
+./Punto_C.sh 
+sudo userdel p1c2_2024_A3
+cat /etc/group
+sudo userdel p1c2_2024_A3
+cat /etc/passwd
+sudo groupdel p1c2_2024_gAlumno 
+sudo groupdel p1c2_2024_gProfesores 
+vim Punto_C.sh 
+./Punto_C.sh 
+vim Punto_C.sh 
+./Punto_C.sh 
+vim Punto_C.sh 
+./Punto_C.sh 
+vim Punto_C.sh 
+./Punto_C.sh 
+man useradd 
+vim Punto_C.sh 
+./Punto_C.sh 
+vim Punto_C.sh 
+./Punto_C.sh 
+vim Punto_C.sh 
+./Punto_C.sh 
+vim Punto_C.sh 
+./Punto_C.sh 
+cd ..
+cd Examenes-UTN/
+ls
+cd alumno_
+cd alumno_1
+sudo cd alumno_1
+sudo ls
+sudo ls .alh
+sudo ls -alh
+sudo -u p1c2_2024_A1 bash -c "cat /Examenes-UTN/alumno_1/validar.txt"
+sudo -u p1c2_2024_A2 bash -c "cat /Examenes-UTN/alumno_2/validar.txt"
+sudo -u p1c2_2024_A3 bash -c "cat /Examenes-UTN/alumno_3/validar.txt"
+sudo -u p1c2_2024_P1 bash -c "cat /Examenes-UTN/profesores/validar.txt"
+ls
+cd
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_CUENCA/
+ls
+git init
+git add .
+git commit -m "Release terminado punto C"
+git push
+sudo ls - alh /Examenes-UTN/
+sudo ls -alh /Examenes-UTN/
+mkdir -p ~/Estructura_Asimetrica/{correo/carteros{1..10},clientes}/cartas_{1..100}
+cd
+ls
+tree Estructura_Asimetrica/--noreport | pr-T-s' '-w 80--column 4
+tree Estructura_Asimetrica/
+rm -r Estructura_Asimetrica/
+mkdir -p ~/Estructura_Asimetrica/{correo,clientes}/cartas_{1..100} ~/Estructura_Asimetrica/correo/carteros{1..10}
+tree Estructura_Asimetrica/
+tree Estructura_Asimetrica/--noreport | pr-T-s' '-w 80--column 4
+tree Estructura_Asimetrica/--noreport | pr -T -s -w 80--column 4
+tree Estructura_Asimetrica/--noreport | pr -T -s -w 80 --column 4
+tree Estructura_Asimetrica/ --noreport | pr -T -s -w 80 --column 4
+echo 'mkdir -p ~/Estructura_Asimetrica/{correo,clientes}/cartas_{1..100} ~/Estructura_Asimetrica/correo/carteros{1..10}' >> ./repogit/UTNFRA_SO_1P2C_2024_CUENCA/RTA_SCRIPT_Examen_20241002/Punto_D.sh 
+cat ./repogit/UTNFRA_SO_1P2C_2024_CUENCA/RTA_SCRIPT_Examen_20241002/Punto_D.sh 
+cd /repogit/UTNFRA_SO_1P2C_2024_CUENCA/RTA_SCRIPT_Examen_20241002/Punto_D.sh 
+cd ./repogit/UTNFRA_SO_1P2C_2024_CUENCA/RTA_SCRIPT_Examen_20241002/Punto_D.sh 
+ls
+cd repogit/
+cd UTNFRA_SO_1P2C_2024_CUENCA/
+ls
+git add.
+git add .
+vim ./RTA_SCRIPT_Examen_20241002/Punto_D.sh 
+git add .
+git commit -m "Release punto D terminado"
+git push
+git pull
+ls
+vim README.md 
+ls
+cd RTA_SCRIPT_Examen_20241002/
+ls
+cd ..
+ls
+cd RTA_
+cd RTA_ARCHIVOS_Examen_20241002/
+ls
+cd ..
+ls
+git add .
+git commit -m "Update terminado el README"
+git push
+exit
+ls
+mv script-entorno.sh ./repogit/UTNFRA_SO_1P2C_2024_CUENCA/RTA_ARCHIVOS_Examen_20241002/script-entorno.sh
+ls
+cd repogit/UTNFRA_SO_1P2C_2024_CUENCA/RTA_ARCHIVOS_Examen_20241002/
+ls
+cd ..
+ls
+ll
+ls -alh RTA_ARCHIVOS_Examen_20241002/
+cat .bash_history 
+cd
+ll
+cat .bash_history 
+ll
+cp .bash_history ./repogit/UTNFRA_SO_1P2C_2024_CUENCA/
+cp .bash_history ./repogit/UTNFRA_SO_1P2C_2024_CUENCA/.bash_history2
+ls
+cd repogit/UTNFRA_SO_1P2C_2024_CUENCA/
+ls
+ll
+cat .bash_history
+ll
+cd ..
+rm .r UTNFRA_SO_1P2C_2024_CUENCA/
+rm -r UTNFRA_SO_1P2C_2024_CUENCA/
+y
+ls
+ll UTNFRA_SO_1P2C_2024_CUENCA/
+sudo rm -r UTNFRA_SO_1P2C_2024_CUENCA/
+ll
+git clone https://github.com/francogcuenca/UTNFRA_SO_1P2C_2024_CUENCA
+ls
+cd
